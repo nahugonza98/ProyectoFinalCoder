@@ -1,0 +1,45 @@
+/* Comienzo del Footer */
+footer {
+  background-color: gray;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  font-family: "STIX Two Text", serif;
+}
+
+.footer {
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btn-social {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.redesSociales {
+  padding-left: 6rem;
+}
+
+.mx-2 {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.app-badge {
+  height: 4rem;
+}
+
+.descargarApp{
+  margin-top: 2px;
+  height: 8.5rem;
+  background: linear-gradient($fondo, black);
+}
+/* Fin del Footer */

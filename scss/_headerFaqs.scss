@@ -1,0 +1,54 @@
+/* Variables */
+$fondo: #212529;
+$warning:#ffc107;
+
+
+/* Inicio de Header Faqs */
+
+
+.headerTituloFaqs {
+    padding-top: 25rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("https://somospecesvoladores.com/wp-content/uploads/2019/10/Pasos-a-seguir-para-gestionar-bien-la-pagina-de-FAQs.jpg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 1500px;
+  }
+
+
+.FaqsPreguntas{
+  margin-left: 190px;
+}
+
+.bodyFaqs{
+  background-color: $fondo;
+}
+
+.FaqsPreguntas2{
+background-color: white;
+}
+
+.faqsTitulo{
+  font-family: 'Grechen Fuemen', cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.flechaAbajo{
+color: $warning;
+}
+
+.circuloFaqs{
+  color: $fondo
+}
+
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 2s;
+}

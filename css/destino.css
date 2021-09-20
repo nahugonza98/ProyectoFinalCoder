@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/* VARIABLES */
+/* Header */
+.headerTitulo {
+  padding-top: 25rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+.headerTitulo_sub {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.headerTitulo_sub2 {
+  font-size: 3.25rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.botonHead {
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2rem;
+  font-weight: 700; }
+
+.fontLogo {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+/* Fin del Header */
+/* PRINCIPIO DE SERVICIOS */
+.circulo {
+  color: #960000; }
+
+/* Fin de Servicios */
+/* Principio de AcercaDe */
+.cssTexto {
+  background-color: #15191d;
+  color: white; }
+
+.textColor {
+  color: white; }
+
+.cssMio {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.display-4 {
+  font-size: calc(60px);
+  font-weight: 300;
+  line-height: 1.2; }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.imgAcerca {
+  max-width: 100%;
+  margin-top: 40px; }
+
+.acercade {
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 60px; }
+
+/* Fin de AcercaDe */
+/* CONTACTO */
+#contact {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.titulo {
+  color: #fff; }
+
+.form-group {
+  margin-bottom: 1.5rem; }
+
+.form-control {
+  padding: 1.25rem;
+  height: auto; }
+
+.form-group-textarea {
+  height: 100%; }
+
+.tamanioMensa {
+  height: 100%;
+  min-height: 10rem; }
+
+.form-control:focus {
+  border-color: #ff9100;
+  box-shadow: none; }
+
+section#contact form#contactForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da; }
+
+section#contact form#contactForm :-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da; }
+
+section#contact form#contactForm ::-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da; }
+
+section#contact form#contactForm :-ms-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da; }
+
+.contactoFormu {
+  padding: 6rem 0; }
+
+.titulo,
+.page-section .section-heading.h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+.subtitulo,
+.page-section .section-subheading.h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem; }
+
+/* Fin de Contacto */
+/* Comienzo del Footer */
+footer {
+  background-color: gray;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  font-family: "STIX Two Text", serif; }
+
+.footer {
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.btn-social {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%; }
+
+.redesSociales {
+  padding-left: 6rem; }
+
+.mx-2 {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem; }
+
+.app-badge {
+  height: 4rem; }
+
+.descargarApp {
+  margin-top: 2px;
+  height: 8.5rem;
+  background: linear-gradient(#212529, black); }
+
+/* Fin del Footer */
+/* Variables */
+/* Inicio de Header Faqs */
+.headerTituloFaqs {
+  padding-top: 25rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://somospecesvoladores.com/wp-content/uploads/2019/10/Pasos-a-seguir-para-gestionar-bien-la-pagina-de-FAQs.jpg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 1500px; }
+
+.FaqsPreguntas {
+  margin-left: 190px; }
+
+.bodyFaqs {
+  background-color: #212529; }
+
+.FaqsPreguntas2 {
+  background-color: white; }
+
+.faqsTitulo {
+  font-family: 'Grechen Fuemen', cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
+.flechaAbajo {
+  color: #ffc107; }
+
+.circuloFaqs {
+  color: #212529; }
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 2s; }
+
+/* Comiendo del Header de Deportes */
+.cardHover {
+  border-radius: 5%; }
+
+.cardHover:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px #ffffff; }
